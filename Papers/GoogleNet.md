@@ -1,6 +1,6 @@
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/a17d58366dc54f618143930788eb9f69.png)
 
-Going Deeper with Convolutions
+### Going Deeper with Convolutions
 
 ```
 C. Szegedy et al., "Going deeper with convolutions," 2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Boston, MA, USA, 2015, pp. 1-9, doi: 10.1109/CVPR.2015.7298594.
@@ -21,7 +21,7 @@ ImageNet Large Scale Visual Recognition Challenge 是李飞飞等人于2010年�
 贡献2：提高网络内部计算资源的利用率，增加网络深度（depth）和广度（width）并保持计算预算不变。
 基础：赫布理论（Hebbian principle）和多尺度信息处理（multi-scale processing）
 
-## Motivation and High Level Considerations
+## 1 Motivation and High Level Considerations
 
 The most straightforward way of improving the performance of deep neural networks is by increasing their size. This includes both increasing the depth – the number of levels – of the network and its width: the number of units at each level.
 
@@ -31,7 +31,7 @@ However this simple solution comes with two major drawbacks:
 
 2. Another drawback of uniformly increased network size is the dramatically increased use of computational resources.
 
-## 架构细节
+## 2 架构细节
 
 Inception架构的主要想法是考虑【怎样用密集模块来近似最优的局部稀疏结构 】
 
@@ -57,7 +57,7 @@ Inception架构的主要想法是考虑【怎样用密集模块来近似最优�
 3. 减少参数量/计算量；
 4. 增加模型深度，提高非线性表达能力。
 
-## GoogLeNet
+## 3 GoogLeNet
 
 GoogLeNe是在ILSVRC 2014竞赛的提交中使用的Inception架构的特例。
 
@@ -73,7 +73,7 @@ GoogLeNe是在ILSVRC 2014竞赛的提交中使用的Inception架构的特例。
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/ed910cd2115f4abfb751ace2fcebdeba.png)
 
-## 训练方法
+## 4 训练方法
 
 - 数据并行：一个batch均分k份，让不同节点前向和反向传播，再由中央param server优化更新权重
 - 异步随机梯度下降：momentum=0.9，学习率每8次遍历下降4%
