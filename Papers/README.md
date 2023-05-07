@@ -25,3 +25,5 @@
 Batch Norm[原理](https://zhuanlan.zhihu.com/p/441573901)及[实现](https://blog.csdn.net/m0_45388819/article/details/119818716)
 
 手动实现[RNN模块](https://zhuanlan.zhihu.com/p/34421200)
+
+手动实现[LSTM](https://github.com/piEsposito/pytorch-lstm-by-hand/blob/master/LSTM.ipynb)
