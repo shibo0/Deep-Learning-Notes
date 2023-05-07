@@ -1,3 +1,4 @@
+### Papers
 图像分类 LeNet | AlexNet | VGGNet | GoogleNet | ResNet | DenseNet | SENet | HighwayNet | MobileNet | ShuffleNet | EfficientNet | ViT
 
 目标检测 R-CNN | Fast R-CNN | Faster R-CNN | Mask R-CNN | SSD | YOLO | RetinaNet | FCOS | CenterNet | DETR
@@ -7,9 +8,9 @@
 
 实例分割 Mask R-CNN | SOLO  
 
-视频理解 Two-Stream | SlowFast  OCR CRNN
- | 
-三维重建 NeRF  Self-Supervised MoCo | SimCLR  
+视频理解 Two-Stream | SlowFast | OCR | CRNN
+
+三维重建 NeRF | Self-Supervised MoCo | SimCLR  
 
 生成模型 VAE | GANSOT KCF | SiamFC  MOT DeepSORT | Tracktor  
 
@@ -19,5 +20,8 @@
 
 3D点云 PointNet | PointNet++  NLP BERT | GPT
 
+### Code Implementation
 
 Batch Norm[原理](https://zhuanlan.zhihu.com/p/441573901)及[实现](https://blog.csdn.net/m0_45388819/article/details/119818716)
+
+手动实现[RNN模块](https://zhuanlan.zhihu.com/p/34421200)
