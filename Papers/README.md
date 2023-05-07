@@ -18,3 +18,6 @@
 知识蒸馏 KD  
 
 3D点云 PointNet | PointNet++  NLP BERT | GPT
+
+
+Batch Norm[原理](https://zhuanlan.zhihu.com/p/441573901)及[实现](https://blog.csdn.net/m0_45388819/article/details/119818716)
